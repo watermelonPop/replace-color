@@ -4,7 +4,7 @@ Simple html/css/javascript project to change every pixel in an image with a cert
 
 ## Getting Started
 
-Running the files should show a website with an upload button, a download button, a revert icon button, color wheel component, and tolerance sliding bar. Use the upload button to upload any image file(works with pngs as well as jpegs). Change the color wheel to the color you wish to change the pixels to. You can choose a tolerance using the sliding bar, which determines how big the range is of acceptably colored pixels. Then click on any color in the image to change every instance of that color to the picked color from the color wheel. You can then revert the image to the original to work with a new slate, or download the image to your computer using the download button.
+Begin by running the files or going to https://watermelonpop.github.io/replace-color/. This should show a website with an upload button, a download button, a revert icon button, color wheel component, and tolerance sliding bar. Use the upload button to upload any image file(works with pngs as well as jpegs). Change the color wheel to the color you wish to change the pixels to. You can choose a tolerance using the sliding bar, which determines how big the range is of acceptably colored pixels. Then click on any color in the image to change every instance of that color to the picked color from the color wheel. You can then revert the image to the original to work with a new slate, or download the image to your computer using the download button.
 
 ## Usage
 
