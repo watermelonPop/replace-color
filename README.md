@@ -1,20 +1,26 @@
-# replace-color
 
-Simple html/css/javascript project to change every pixel in an image with a certain color -- to another color.
+# Replace Color
 
-## Getting Started
+Replace Color is a simple static html/js/css web development project that takes image uploads, color inputs, and replaces any color clicked by the user in the image to whatever color they choose. Allows the user to download the resulting image with color replaced.
 
-Begin by running the files or going to https://watermelonpop.github.io/replace-color/. This should show a website with an upload button, a download button, a revert icon button, color wheel component, and tolerance sliding bar. Use the upload button to upload any image file(works with pngs as well as jpegs). Change the color wheel to the color you wish to change the pixels to. You can choose a tolerance using the sliding bar, which determines how big the range is of acceptably colored pixels. Then click on any color in the image to change every instance of that color to the new color from the color wheel. You can then revert the image to the original to work with a new slate, or download the image to your computer using the download button.
 
-## Usage
+## Demo
 
-Uses bootstrap, coloris, and fontawesome as helpers for our website. Bootstrap for css purposes, coloris for the color wheel functionality, and fontawesome for the icons used in the project.
+https://watermelonpop.github.io/replace-color/
 
-When the input image has changed, draw the image on the canvas. 
-When the user clicks on a color, need to keep the location and color of the click, and change every pixel accordingly.
-When the user clicks the download button, the image should download to their computer under the name: "color-replaced". 
-When the user changes the tolerance, the next time they click on a color in the image, the fill tolerance will be adjusted.
-When the user clicks the revert icon button, the canvas should show the original image uploaded.
+
+## Features
+
+- Image upload compatible with png & jpg
+- Color picker input using Coloris
+    - allows both text input & visual color picker
+- Slider to determine the tolerance
+    - determines how large the range is of acceptably colored pixels to replace
+- Revert button to replace the current version with the original
+- Image download button to get the new image created with replaced color
+
+## Resources
+Uses bootstrap, coloris, and fontawesome as helpers for the website. Bootstrap for css purposes, coloris for the color wheel functionality, and fontawesome for the icons used in the project.
 
 ## Global Variables
 ```javascript
